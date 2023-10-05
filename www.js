@@ -27,7 +27,7 @@ http.createServer(function(req, res){
 				throw err;
 			}
 			else{
-					fs.appendFile('public/log.txt', 'Tekst lisatud;'(err)=>{
+					fs.appendFile('public/log.txt', 'Tekst lisatud;',(err)=>{
 						if(err){
 							throw err;
 						}
