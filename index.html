@@ -6,11 +6,21 @@
 	<script src ="first.js"defer></script>
 </head>
 <body>
-<img src= "../~rinde/media/pics/banner/vp_banner_2023.png"_alt="veebiprogrammeerimine kursuse banner">
+<img src= "../VP23/public/banner/banner.png"_alt="veebiprogrammeerimine kursuse banner">
 <h1>Albert Berkman</h1>
 <p>See leht on loodud <a href="https://www.tlu.ee" target="_blank">TLÜ</a> Digitehnoloogiate instituudis õppetöö raames! Ma lisasin siia asju juurde jeeee!</p>
-<p>Tänane kuupäev on 28.09.2023</p>
+<p id="output">Tänane aasta on 2023</p>
 <hr>
 <p>Kursus, mille raames leht tehti on: veebiprogrammeerimine. </p>
+
+<form method = "POST">
+	<label for="nameInput">Eesnimi: </label>
+	<input type="text" id="nameInput" name="nameInput" placeholder="Sinu eesnimi . . .">
+	<br>
+	<label for="lastNameInput">Perekonnanimi: </label>
+	<input type="text" id="nameInput" name="lastNameInput" placeholder="Sinu perenimi . . .">
+	<br>
+	<input type ="submit" name="nameSubmit" value = "Salvesta">
+</form>
 </body>
 </html>

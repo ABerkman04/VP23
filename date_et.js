@@ -4,7 +4,11 @@ exports.dateNowET = function(){
 	return timeNow.getDate() + "." + "." + monthNameET[timeNow.getMonth] + "." + timeNow.getFullYear();
 	
 }
-
+exports.timeNowET = function(){
+	let timeNow = new Date();
+	return timeNow.getHours() + "." + timeNow.getMinutes "." + + timeNow.getSeconds();
+	
+}
 //monthNameET[0]
 // monthNamesET[monthNameET()]
 //console.log(Date());
